@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/group-three-watu-wetu-react-app/static/css/main.e6c13ad2.css",
+    "main.js": "/group-three-watu-wetu-react-app/static/js/main.7ec233da.js",
+    "static/js/787.658ed05b.chunk.js": "/group-three-watu-wetu-react-app/static/js/787.658ed05b.chunk.js",
+    "index.html": "/group-three-watu-wetu-react-app/index.html",
+    "main.e6c13ad2.css.map": "/group-three-watu-wetu-react-app/static/css/main.e6c13ad2.css.map",
+    "main.7ec233da.js.map": "/group-three-watu-wetu-react-app/static/js/main.7ec233da.js.map",
+    "787.658ed05b.chunk.js.map": "/group-three-watu-wetu-react-app/static/js/787.658ed05b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.7ec233da.js"
+  ]
+}
