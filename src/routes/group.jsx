@@ -1,6 +1,6 @@
 import Member from "../components/Member";
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const Group = () => {
     const { groupId } = useParams();
@@ -22,7 +22,7 @@ const Group = () => {
             <h1>
                 {data?.name || 'Not Available'}
             </h1>
-    
+
             <p className="mt-2 lead">
                 {data?.description || 'No description available'}
             </p>
@@ -31,9 +31,8 @@ const Group = () => {
         <section className="row">
             {
                 (data?.members || []).map((member, index) => {
-
                     return <div key={index} className="col-12 col-md-4 col-xl-3 mt-4 mb-2">
-                        <Member {...member} />
+                        <Member {...{ ...member, groupId }} />
                     </div>
                 })
             }
